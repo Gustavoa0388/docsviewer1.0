@@ -71,7 +71,7 @@ namespace DocumentosOrtobio
                 LogActivity("Login");
 
                 btnSettings.Visible = loggedUser.Role == "admin";
-                btnChangePassword.Visible = loggedUser.Role == "user";
+                btnChangePassword.Visible = loggedUser.Role == "viewer" || loggedUser.Role == "editor";
                 ConfigurePdfViewerPermissions();
                 PopulateCategoryComboBox(comboBoxCategory1);
                 PopulateCategoryComboBox(comboBoxCategory2);
@@ -155,30 +155,67 @@ namespace DocumentosOrtobio
 
         private void ConfigurePdfViewerPermissions()
         {
-            if (loggedUser.Role != "admin")
-            {
-                var toolStrip1 = pdfViewer1.Controls.OfType<ToolStrip>().FirstOrDefault();
-                var toolStrip2 = pdfViewer2.Controls.OfType<ToolStrip>().FirstOrDefault();
+            var toolStrip1 = pdfViewer1.Controls.OfType<ToolStrip>().FirstOrDefault();
+            var toolStrip2 = pdfViewer2.Controls.OfType<ToolStrip>().FirstOrDefault();
 
-                if (toolStrip1 != null)
+            if (toolStrip1 != null)
+            {
+                foreach (ToolStripItem item in toolStrip1.Items)
                 {
-                    foreach (ToolStripItem item in toolStrip1.Items)
+                    if (item.Text == "Save")
                     {
-                        if (item.Text == "Save" || item.Text == "Print")
+                        item.Click += (s, e) =>
                         {
-                            item.Enabled = false;
-                        }
+                            if (listBoxFiles1.SelectedItem != null)
+                            {
+                                string selectedFileName = listBoxFiles1.SelectedItem.ToString();
+                                LogActivity($"Salvou o documento: {selectedFileName}");
+                            }
+                        };
+                        item.Enabled = loggedUser.Role == "admin" || loggedUser.Role == "editor";
+                    }
+                    else if (item.Text == "Print")
+                    {
+                        item.Click += (s, e) =>
+                        {
+                            if (listBoxFiles1.SelectedItem != null)
+                            {
+                                string selectedFileName = listBoxFiles1.SelectedItem.ToString();
+                                LogActivity($"Imprimiu o documento: {selectedFileName}");
+                            }
+                        };
+                        item.Enabled = loggedUser.Role == "admin" || loggedUser.Role == "editor";
                     }
                 }
+            }
 
-                if (toolStrip2 != null)
+            if (toolStrip2 != null)
+            {
+                foreach (ToolStripItem item in toolStrip2.Items)
                 {
-                    foreach (ToolStripItem item in toolStrip2.Items)
+                    if (item.Text == "Save")
                     {
-                        if (item.Text == "Save" || item.Text == "Print")
+                        item.Click += (s, e) =>
                         {
-                            item.Enabled = false;
-                        }
+                            if (listBoxFiles2.SelectedItem != null)
+                            {
+                                string selectedFileName = listBoxFiles2.SelectedItem.ToString();
+                                LogActivity($"Salvou o documento: {selectedFileName}");
+                            }
+                        };
+                        item.Enabled = loggedUser.Role == "admin" || loggedUser.Role == "editor";
+                    }
+                    else if (item.Text == "Print")
+                    {
+                        item.Click += (s, e) =>
+                        {
+                            if (listBoxFiles2.SelectedItem != null)
+                            {
+                                string selectedFileName = listBoxFiles2.SelectedItem.ToString();
+                                LogActivity($"Imprimiu o documento: {selectedFileName}");
+                            }
+                        };
+                        item.Enabled = loggedUser.Role == "admin" || loggedUser.Role == "editor";
                     }
                 }
             }
@@ -477,7 +514,15 @@ namespace DocumentosOrtobio
         private void LogActivity(string activity)
         {
             string logMessage = $"{DateTime.Now:dd-MM-yyyy HH:mm:ss} - {GetLocalIPAddress()} - {loggedUser.Username} - {activity}";
-            Logger.Log(logMessage);
+            try
+            {
+                string logFilePath = Path.Combine(basePath, "activity_log.txt");
+                File.AppendAllText(logFilePath, logMessage + Environment.NewLine);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao registrar atividade: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private string GetLocalIPAddress()

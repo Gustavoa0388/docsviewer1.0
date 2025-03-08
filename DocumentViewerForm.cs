@@ -83,22 +83,38 @@ namespace DocumentosOrtobio
             // Habilitar as opções de zoom para todos os usuários
             pdfViewer3.ShowToolbar = true;
 
-            // Desabilitar as funções de impressão e salvamento para usuários comuns
-            if (loggedUser.Role != "admin")
+            var toolStrip = pdfViewer3.Controls.OfType<ToolStrip>().FirstOrDefault();
+            if (toolStrip != null)
             {
-                var toolStrip = pdfViewer3.Controls.OfType<ToolStrip>().FirstOrDefault();
-                if (toolStrip != null)
+                foreach (ToolStripItem item in toolStrip.Items)
                 {
-                    foreach (ToolStripItem item in toolStrip.Items)
+                    if (item.Text == "Save")
                     {
-                        if (item.Text == "Save" || item.Text == "Print")
+                        item.Click += (s, e) =>
                         {
-                            item.Enabled = false;
-                        }
+                            if (listBoxFiles3.SelectedItem != null)
+                            {
+                                string selectedFileName = listBoxFiles3.SelectedItem.ToString();
+                                LogActivity($"Salvou o documento: {selectedFileName}");
+                            }
+                        };
+                        item.Enabled = loggedUser.Role == "admin" || loggedUser.Role == "editor";
+                    }
+                    else if (item.Text == "Print")
+                    {
+                        item.Click += (s, e) =>
+                        {
+                            if (listBoxFiles3.SelectedItem != null)
+                            {
+                                string selectedFileName = listBoxFiles3.SelectedItem.ToString();
+                                LogActivity($"Imprimiu o documento: {selectedFileName}");
+                            }
+                        };
+                        item.Enabled = loggedUser.Role == "admin" || loggedUser.Role == "editor";
                     }
                 }
             }
-        }
+        }      
 
         private void PopulateCategoryComboBox(ComboBox comboBox)
         {
