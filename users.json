@@ -1,0 +1,284 @@
+[
+  {
+    "Username": "admin",
+    "Password": "Orto1133",
+    "Role": "admin",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "gustavo",
+    "Password": "031988",
+    "Role": "admin",
+    "LastLogin": "2025-03-07T17:43:48.6475868-03:00"
+  },
+  {
+    "Username": "teste1",
+    "Password": "123",
+    "Role": "admin",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "lucas",
+    "Password": "123",
+    "Role": "admin",
+    "LastLogin": "2025-03-07T15:41:10.4361974-03:00"
+  },
+  {
+    "Username": "ingrid",
+    "Password": "041202",
+    "Role": "user",
+    "LastLogin": "2025-03-07T10:07:48.0173132-03:00"
+  },
+  {
+    "Username": "isadora",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "2025-03-07T11:20:18.9305053-03:00"
+  },
+  {
+    "Username": "nathalia",
+    "Password": "123",
+    "Role": "admin",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "luciane",
+    "Password": "123",
+    "Role": "admin",
+    "LastLogin": "2025-03-06T09:54:09.4009025-03:00"
+  },
+  {
+    "Username": "maria",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "2025-03-07T14:41:22.0784416-03:00"
+  },
+  {
+    "Username": "testesenha",
+    "Password": "$2a$11$0sep6LPlphNS89cKb5gZqOT6cVh1k9/EAPnXjYBK8Mh8T.rr5pgZG",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "gustavodavi",
+    "Password": "redbull",
+    "Role": "user",
+    "LastLogin": "2025-03-07T15:27:45.9719976-03:00"
+  },
+  {
+    "Username": "gabriel",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "ivan",
+    "Password": "V1002",
+    "Role": "user",
+    "LastLogin": "2025-03-07T14:19:32.1943356-03:00"
+  },
+  {
+    "Username": "renanc",
+    "Password": "0511",
+    "Role": "user",
+    "LastLogin": "2025-03-07T13:56:35.6227528-03:00"
+  },
+  {
+    "Username": "diegoa",
+    "Password": "9730",
+    "Role": "user",
+    "LastLogin": "2025-03-07T16:42:12.6072658-03:00"
+  },
+  {
+    "Username": "roberto",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "elenici",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "adalberto",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "alcimara",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "aline",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "anapaula",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "bruna",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "carla",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "cleia",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "fernanda",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "gleice",
+    "Password": "'12",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "joaom",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "lorrandres",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "marcialopes",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "marcio",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "marial",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "matielen",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "regiane",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "rosineide",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "sarah",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "silvio",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "silvia",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "thamyrys",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "elias",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "diegoe",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "2025-03-07T13:41:35.9300927-03:00"
+  },
+  {
+    "Username": "rafael",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "2025-03-07T13:27:41.6037886-03:00"
+  },
+  {
+    "Username": "evelin",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "2025-03-07T13:18:52.1298878-03:00"
+  },
+  {
+    "Username": "patricia",
+    "Password": "123",
+    "Role": "admin",
+    "LastLogin": "2025-03-07T14:53:40.3103209-03:00"
+  },
+  {
+    "Username": "cristiano",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "renanr",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "anderson",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "teste123",
+    "Password": "123",
+    "Role": "user",
+    "LastLogin": "2025-03-07T14:34:48.5888034-03:00"
+  }
+]

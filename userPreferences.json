@@ -1,0 +1,70 @@
+{
+  "admin": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "teste": {
+    "IsDarkMode": true,
+    "IsSimpleView": true
+  },
+  "isadora": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "ingrid": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "Lucas": {
+    "IsDarkMode": true,
+    "IsSimpleView": true
+  },
+  "luciane": {
+    "IsDarkMode": false,
+    "IsSimpleView": false
+  },
+  "teste1": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "nathalia": {
+    "IsDarkMode": true,
+    "IsSimpleView": true
+  },
+  "gustavo": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "maria": {
+    "IsDarkMode": false,
+    "IsSimpleView": false
+  },
+  "lucas": {
+    "IsDarkMode": false,
+    "IsSimpleView": true
+  },
+  "diegoe": {
+    "IsDarkMode": false,
+    "IsSimpleView": false
+  },
+  "renanc": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "ivan": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "gustavodavi": {
+    "IsDarkMode": true,
+    "IsSimpleView": true
+  },
+  "diegoa": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  },
+  "patricia": {
+    "IsDarkMode": true,
+    "IsSimpleView": false
+  }
+}
