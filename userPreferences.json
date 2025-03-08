@@ -1,70 +1,146 @@
 {
   "admin": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "teste": {
     "IsDarkMode": true,
-    "IsSimpleView": true
+    "IsSimpleView": true,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "isadora": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "ingrid": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "Lucas": {
     "IsDarkMode": true,
-    "IsSimpleView": true
+    "IsSimpleView": true,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "luciane": {
     "IsDarkMode": false,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "teste1": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "nathalia": {
     "IsDarkMode": true,
-    "IsSimpleView": true
+    "IsSimpleView": true,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "gustavo": {
-    "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsDarkMode": false,
+    "IsSimpleView": false,
+    "LastCategory1": "All Categories",
+    "LastSubCategory1": "All Subcategories",
+    "LastCategory2": "All Categories",
+    "LastSubCategory2": "All Subcategories"
   },
   "maria": {
     "IsDarkMode": false,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "lucas": {
     "IsDarkMode": false,
-    "IsSimpleView": true
+    "IsSimpleView": true,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "diegoe": {
     "IsDarkMode": false,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "renanc": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "ivan": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "gustavodavi": {
     "IsDarkMode": true,
-    "IsSimpleView": true
+    "IsSimpleView": true,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "diegoa": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
   },
   "patricia": {
     "IsDarkMode": true,
-    "IsSimpleView": false
+    "IsSimpleView": false,
+    "LastCategory1": null,
+    "LastSubCategory1": null,
+    "LastCategory2": null,
+    "LastSubCategory2": null
+  },
+  "teste123": {
+    "IsDarkMode": false,
+    "IsSimpleView": false,
+    "LastCategory1": "All Categories",
+    "LastSubCategory1": "All Subcategories",
+    "LastCategory2": "All Categories",
+    "LastSubCategory2": "All Subcategories"
   }
 }
